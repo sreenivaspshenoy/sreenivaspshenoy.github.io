@@ -1,0 +1,43 @@
+body{
+    color: white;
+}
+.mail {
+    color:white;
+}
+#hero {
+    background: url('/assets/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0 100%;
+}
+
+.feature-wrapper {
+        color: #000;
+    }
+
+.navbar {
+    width: 100%;
+    background: none !important;
+
+    @media(max-width:34em) {
+        background: black !important;
+    }
+
+    
+    .navbar-toggler {
+        cursor: pointer;
+        outline:0;
+    }
+
+    .nav-link {
+        
+        font-weight: normal;
+    }
+
+    .nav-item {
+        padding: 0 1rem;
+        @media(max-width: 34em){
+            padding: 0;
+        }
+    }
+    
+}
